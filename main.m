@@ -59,7 +59,7 @@ for i = 1 : num_region
     for j = 8 : 8 : Wide_R
         for k = 8 : 8 : Wide_C
             if emb_loc(j/8,k/8) == 0
-               loc_one = [5,4]; loc_two = [5,5];
+               loc_one = [5,4]; loc_two = [4,5];
             else
                loc_one = [4,5]; loc_two = [5,4];
             end
